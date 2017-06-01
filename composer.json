@@ -1,0 +1,36 @@
+{
+  "name" : "frdl/frdlweb",
+  "require": {
+      "php": ">=5.6.3",
+      "frdl/webfan" : "dev-master",
+      "altorouter/altorouter" : "dev-master"
+  },
+
+  "require-dev": {
+      "php": ">=7.1.5",
+      "frdl/WebfanPanelInternal" : "dev-master",
+      "plesk/api-php-lib" : "dev-master"
+  },
+
+    "suggest": {
+        "php": ">=7.1.5",
+        "bshaffer/oauth2-server-php" : "*"
+    },
+
+    "conflict": {
+        "microsoft/frontpage" : "*"
+    },    
+    
+    "provide" : {
+
+    },
+
+    "autoload": {
+    	"files": [
+
+    	         ],
+        "psr-4": {
+                 "frdlweb\\" : ""
+        }
+}
+}
