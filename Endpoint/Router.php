@@ -44,7 +44,7 @@ class Router extends \AltoRouter {
 	protected $matchTypes = array(
 		'i'  => '[0-9]++',     //INTEGER
 		'a'  => '[0-9A-Za-z]++',   //ALPHANUMERIC
-		'h'  => '[0-9A-Fa-f]++',
+		'h'  => '[0-9A-Fa-f]++',   //HASH
 		'*'  => '.+?',         //ANY OPTIONAL
 		'**' => '.++',         //ANY
 		
