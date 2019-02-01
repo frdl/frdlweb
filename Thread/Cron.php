@@ -248,11 +248,7 @@ class Cron
 		return $jobs;
 	}
 	
-	/**
-\webfan\hps\Api\Response\Format::RESULT
-\webfan\hps\Api\Response\Format::ARRAY
-\webfan\hps\Api\Response\Format::ASSOC
-*/
+
 	
 	public function __invoke( $callback = null, $format = \webfan\hps\Api\Response\Format::ASSOC){
 				
