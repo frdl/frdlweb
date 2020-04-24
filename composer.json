@@ -1,3 +1,4 @@
 {
-  "name" : "frdl/frdlweb"
+  "name" : "frdl/frdlweb",
+  "license" : ["MIT"]
 }
