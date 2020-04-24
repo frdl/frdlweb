@@ -1,9 +1,2 @@
 # frdlweb
-Enterprise Framework
-
-
-	/**
-	*   Awesome
-	*
-	*   @awesome
-	*/	
+...relauch and rewriting repository...
