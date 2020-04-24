@@ -3,102 +3,16 @@
 	"require":
 	{
 		"php": ">=5.6.3",
-		"frdl/webfan" : "dev-master",
-		"altorouter/altorouter" : "dev-master",
-		"monolog/monolog" : "1.22.1",
-		"jeremeamia/superclosure": "2.4.0",
-		"league/flysystem": "1.0.45",
-		"phlib/flysystem-pdo" : "dev-ver-1.1",
-		"league/flysystem-sftp" : "1.0.15",
-		"league/flysystem-cached-adapter": "dev-master",
-		"league/flysystem-replicate-adapter": "dev-master",
-		"twistor/flysystem-stream-wrapper" : "1.0.8",
-		"phlib/jobqueue" : "1.0.1",
-		"fordnox/php-queue-manager" : "0.3",
-		"fguillot/json-rpc" : "1.2.3",
-		"league/pipeline" : "0.3.0",
-		"league/flysystem-eventable-filesystem" : "1.0.0",
-		"league/flysystem-ziparchive" : "1.0.3",
-		"fly-crud/fly-crud" : "2.0.3",
-		"dflydev/dot-access-data" : "1.0",
-		"dflydev/placeholder-resolver" : "1.0.2",
-		"gettext/robo"  : "3.0.1",
-		"malkusch/lock" : "1.0.0",
-		"slim/slim" : "3.0",
-		"slim/flash" : "0.4.0",
-		"goaop/parser-reflection" : "1.3.0",
-		"krowinski/async" : "1.0.1",
-		"dflydev/dot-access-configuration" : "1.0.2",
-		"phpseclib/phpseclib" : "2.0.10",
-		"symfony/security-bundle":"3.4.10",
-		"symfony/cache" : "~3.4.10",
-		"symfony/http-foundation" : "~3.4.8",
-		"symfony/http-kernel" : "~3.4.8",
-		"symfony/routing" : "~3.4.8",
-		"psr/http-message": "~1.0.0",
-		"ramsey/uuid": "^3.0.0",
-		"doctrine/orm": "~2.5.0",
-		"doctrine/migrations": "~1.3.0",
-		"doctrine/dbal": "~2.5.0",
-		"doctrine/common": ">=2.4,<2.8-dev",
-		"symfony/yaml": "~3.4.8",
-		"symfony/dom-crawler": "~3.4.8",
-		"symfony/console": "~3.4.8",
-		"neos/composer-plugin": "^2.0.0",
-		"symfony/browser-kit" : "~3.4.8",
-		"symfony/framework-bundle" : "~3.4.8",
-		"symfony/form":"~3.4.8",
-		"symfony/validator":"~3.4.8",
-		"symfony/translation":"~3.4.8",
-		"symfony/twig-bridge":"~3.4.8",
-		"symfony/twig-bundle":"~3.4.9",
-		"symfony/security-bundle":"~3.4.8",
-		"symfony/proxy-manager-bridge" : "~3.4.8",
-		"symfony-cmf/routing-bundle" : "~2.0.3",
-		"jackalope/jackalope-doctrine-dbal" : "~1.3.2",
-		"doctrine/phpcr-odm" :"~1.4.4",
-		"doctrine/phpcr-bundle" : "~1.3.5",
-		"symfony/debug-bundle":"~3.4.8",
-		"symfony/web-profiler-bundle":"~3.4.8",
-		"sensio/generator-bundle" :"~3.1.7",
-		"doctrine/doctrine-bundle" : "~1.9.1",
-		"doctrine/doctrine-cache-bundle":"~1.3.3",
-		"symfony/debug-bundle" : "~3.4.8",
-		"nikic/php-parser":"3.1.4",
-		"psr/log" : "1.0.2",
-		"symfony/dotenv" : "~3.4.9",
-		"symfony/lock" : "~3.4.10",
-		"friendsofsymfony/user-bundle" : "~2.1.2"	,
-		"symfony/monolog-bundle" : "~3.0.2",
-		"srmklive/flysystem-dropbox-v2" : "1.0.7",
-		"kunalvarma05/dropbox-php-sdk" : "0.2.1",
-		"craue/formflow-bundle" : "~3.0.3"	,
-		"symfony/symfony" : "3.4.10",
-		"jenssegers/proxy" : "~3.0.0",
-		"dnode/dnode" : "*",
-		"deployphp/recipes" : "6.1.6",
-		"deployer/deployer" : "4.3.2",
-		"eftec/bladeone" : "*",
-		"eftec/statemachineone" : "1.2",
-		"eftec/documentstoreone" : "*",
-		"eftec/validationone" : "1.13",
-		"eftec/formone" : "1.7",
-		"verot/class.upload.php" : "dev-master"
 	},
 
 	"require-dev":
 	{
 
-
-		"plesk/api-php-lib" : "dev-master",
-		"deployphp/recipes" : "6.1.6",
-		"deployer/deployer" : "4.3.2"
 	},
 
 	"suggest":
 	{
-		"php": ">=7.1.5",
-		"bshaffer/oauth2-server-php" : "*"
+            "frdl/project" : "*"
 	},
 
 	"conflict":
@@ -108,18 +22,18 @@
 
 	"provide" :
 	{
-		"melbahja/http2-pusher"  : "dev-master",
-		"phpcr/phpcr-implementation" : "dev-master"
+
 	},
 
 	"autoload":
 	{
+		"classmap" : [],
 		"files": [
 
 		],
 		"psr-4":
 		{
-			"frdlweb\\" : ""
+			
 		}
 	}
 }
